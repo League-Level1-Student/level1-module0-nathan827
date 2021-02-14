@@ -32,7 +32,7 @@ Component Image = new Component();
 		// 3. use the "createImage()" method below to initialize your Component
 createImage(image);
 		// 4. add the image to the quiz window
-quizWindow.getContentPane().add();
+quizWindow.getContentPane().add(Image));
 		// 5. call the pack() method on the quiz window
 quizWindow.pack();
 		// 6. ask a question that relates to the image
