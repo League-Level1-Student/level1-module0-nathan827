@@ -28,11 +28,11 @@ public class PhotoQuiz {
 		// “Copy Image Address”)
 		String image = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg";
 		// 2. create a variable of type "Component" that will hold your image
-Component Image = new Component();
+Component component;
 		// 3. use the "createImage()" method below to initialize your Component
-createImage(image);
+component = createImage(image);
 		// 4. add the image to the quiz window
-quizWindow.getContentPane().add(Image));
+quizWindow.getContentPane().add(component);
 		// 5. call the pack() method on the quiz window
 quizWindow.pack();
 		// 6. ask a question that relates to the image
@@ -47,7 +47,7 @@ else {
 }
 		// 9. remove the component from the quiz window (you may not see the
 		// effect of this until step 12)
-
+quizWindow.getContentPane().remove(component);
 		// 10. find another image and create it (might take more than one line
 		// of code)
 
